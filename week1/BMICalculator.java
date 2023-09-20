@@ -7,15 +7,15 @@ public class BMICalculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter you weight (kg): ");
-        double weight = scanner.nextDouble();
+        System.out.println("Enter your weight (kg): ");
+        float weight = scanner.nextFloat();
         System.out.println("Enter your height (m): ");
-        double height = scanner.nextDouble();
+        float height = scanner.nextFloat();
 
-        System.out.println("Your BMI: " + calculateBMI(weight, height));
-    }
+        float bmi = weight / (height * height);
 
-    private static double calculateBMI(double weight, double height) {
-        return (weight / (height * height));
+        System.out.println("Your BMI: " + bmi);
+
+        scanner.close();
     }
 }
