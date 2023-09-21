@@ -12,7 +12,7 @@ public class FizzBuzz {
 
         for (int i = 1; i <= userInput; i++) { 
             if (i % 3 == 0 && i % 5 == 0) { 
-                System.out.println("FizzBuzz");
+                System.out.println("FizzBuzz"); 
             } else if (i % 3 == 0) {
                 System.out.println("Fizz");
             } else if (i % 5 == 0) {
