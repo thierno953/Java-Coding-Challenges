@@ -1,4 +1,4 @@
-package Challenges;
+package Challenge;
 
 public class TemperatureConversion {
     public static void main(String[] args) {
