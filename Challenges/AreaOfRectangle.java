@@ -1,4 +1,4 @@
-package week1;
+package Challenges;
 
 public class AreaOfRectangle {
     public static void main(String[] args) {

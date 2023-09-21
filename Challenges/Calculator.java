@@ -1,4 +1,4 @@
-package week1;
+package Challenges;
 
 public class Calculator {
     public static void main(String[] args) {
