@@ -10,7 +10,7 @@ public class DynamicCalculator {
         final String MULTIPLY = "*";
         final String DIVIDE = "/";
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         double total = 0;
 
         System.out.println("Enter first number: ");
