@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge1;
 
 public class ConvertCurrency {
 
