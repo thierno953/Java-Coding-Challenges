@@ -23,7 +23,7 @@ public class DynamicCalculator {
 
         if (operator.equals(SUM)) {
             total = num1 + num2;
-        } else if (operator.equals(SUBTRACT)) {
+        } else if (operator.equals(SUBTRACT)) { 
             total = num1 - num2;
         } else if (operator.equals(MULTIPLY)) {
             total = num1 * num2;
