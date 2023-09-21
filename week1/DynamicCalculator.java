@@ -25,7 +25,7 @@ public class DynamicCalculator {
             total = num1 + num2;
         } else if (operator.equals(SUBTRACT)) { 
             total = num1 - num2;
-        } else if (operator.equals(MULTIPLY)) { 
+        } else if (operator.equals(MULTIPLY)) {  
             total = num1 * num2;
         } else if (operator.equals(DIVIDE)) {
             total = num1 / num2;
