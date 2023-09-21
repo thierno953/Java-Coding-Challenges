@@ -8,7 +8,7 @@ public class DynamicCalculator {
         final String SUM = "+";
         final String SUBTRACT = "=";
         final String MULTIPLY = "*";
-        final String DIVIDE = "/";
+        final String DIVIDE = "/"; 
 
         Scanner scanner = new Scanner(System.in); 
         double total = 0;
@@ -30,7 +30,7 @@ public class DynamicCalculator {
         } else if (operator.equals(DIVIDE)) {
             total = num1 / num2;
         } else {
-            System.out.println("Operation failed. Please type the right operator.");
+            System.out.println("Operation failed. Please type the right operator. ");
             System.exit(0);
         }
         System.out.println(num1 + " " + operator + " " + num2 + " = " + total);
