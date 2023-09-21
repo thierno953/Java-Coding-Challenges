@@ -21,7 +21,7 @@ public class DynamicCalculator {
         scanner.nextLine();
         String operator = scanner.nextLine();
 
-        if (operator.equals(SUM)) {
+        if (operator.equals(SUM)) { 
             total = num1 + num2;
         } else if (operator.equals(SUBTRACT)) { 
             total = num1 - num2;
