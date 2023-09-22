@@ -1,8 +1,7 @@
-package Challenge1;
+package Challenge1.Day1;
 
 public class BillCalculation {
     public static void main(String[] args) {
-
         int initialAmount = 30;
         int taxes = 15;
         int tip = 10;

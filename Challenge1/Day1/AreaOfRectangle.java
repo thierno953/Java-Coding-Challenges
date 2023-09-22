@@ -1,10 +1,9 @@
-package Challenge1;
+package Challenge1.Day1;
 
 public class AreaOfRectangle {
     public static void main(String[] args) {
-
-        int length = 10; 
-        int breadth = 30;
+        int length = 20;
+        int breadth = 40;
 
         int areaOfRectangle = length * breadth;
 

@@ -1,16 +1,15 @@
-package Challenge1;
+package Challenge1.Day1;
 
 import java.util.Scanner;
 
 public class DynamicCalculator {
     public static void main(String[] args) {
-
         final String SUM = "+";
         final String SUBTRACT = "=";
         final String MULTIPLY = "*";
-        final String DIVIDE = "/"; 
+        final String DIVIDE = "/";
 
-        Scanner scanner = new Scanner(System.in); 
+        Scanner scanner = new Scanner(System.in);
         double total = 0;
 
         System.out.println("Enter first number: ");
@@ -21,20 +20,20 @@ public class DynamicCalculator {
         scanner.nextLine();
         String operator = scanner.nextLine();
 
-        if (operator.equals(SUM)) { 
+        if (operator.equals(SUM)) {
             total = num1 + num2;
-        } else if (operator.equals(SUBTRACT)) { 
+        } else if (operator.equals(SUBTRACT)) {
             total = num1 - num2;
-        } else if (operator.equals(MULTIPLY)) {  
+        } else if (operator.equals(MULTIPLY)) {
             total = num1 * num2;
         } else if (operator.equals(DIVIDE)) {
             total = num1 / num2;
         } else {
-            System.out.println("Operation failed. Please type the right operator. ");
+            System.out.println("Error! Invalid input");
             System.exit(0);
         }
-        System.out.println(num1 + " " + operator + " " + num2 + " = " + total);
 
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + total);
         scanner.close();
     }
 }
