@@ -8,6 +8,7 @@ public class FindWord {
         System.out.println("Enter a sentence: ");
         String userInput = scanner.nextLine();
         String[] stringArray = userInput.split(" ");
+        scanner.close();
 
         System.out.println("Enter a number: ");
         int num = scanner.nextInt();
