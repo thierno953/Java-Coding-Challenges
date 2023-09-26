@@ -12,3 +12,4 @@ public class SearchName {
         System.out.println(nameToSearch + " does not exist in the array");
     }
 }
+ 

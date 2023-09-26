@@ -14,7 +14,7 @@ public class CheckSession {
         }
         if (a >= 5 && b >= 5) {
             return 1;
-        }
+        } 
         return -1;
     }
 }

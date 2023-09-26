@@ -15,6 +15,6 @@ public class CheckSequence {
                 return true;
             }
         }
-        return false;
+        return false; 
     }
 }

@@ -9,8 +9,9 @@ public class MonkeySmile {
         } else if (!a && !b) {
             return true;
         } else {
-            return false;
+            return false; 
         }
         // or the simplest, just return a == b
     }
 }
+ 
