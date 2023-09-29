@@ -14,5 +14,5 @@ public class CorrectInput {
         }
         System.out.println("Thank you for your input!");
         scanner.close();
-    }
+    } 
 }

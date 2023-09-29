@@ -13,5 +13,5 @@ public class MultiplicationTable {
             System.out.println(userInput + " * " + i + " = " + userInput * i);
         }
         scanner.close();
-    }
+    } 
 }

@@ -14,3 +14,4 @@ public class UseOfSplit {
         scanner.close();
     }
 }
+ 

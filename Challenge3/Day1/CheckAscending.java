@@ -10,6 +10,6 @@ public class CheckAscending {
                 return;
             }
         }
-        System.out.println("Sorted");
+        System.out.println("Sorted"); 
     }
 }

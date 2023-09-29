@@ -14,3 +14,4 @@ public class SearchElement {
         System.out.println("Error! No such number in the array");
     }
 }
+ 

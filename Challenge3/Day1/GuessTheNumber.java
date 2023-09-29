@@ -26,7 +26,7 @@ public class GuessTheNumber {
             int guess = scanner.nextInt();
             if (guess > secretNumber) {
                 System.out.println("Your guess is too high");
-            } else if (guess < secretNumber) {
+            } else if (guess < secretNumber) { 
                 System.out.println("Your guess is too low");
             } else {
                 isEqual = true;

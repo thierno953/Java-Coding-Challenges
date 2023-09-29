@@ -13,7 +13,7 @@ public class CountSignedNumbers {
 
         for (int i = 0; i < userArray.length; i++) {
             System.out.println("(" + (i + 1) + ") Enter a number: ");
-            int number = scanner.nextInt();
+            int number = scanner.nextInt(); 
             if (number > 0) {
                 positiveCount++;
             } else if (number < 0) {

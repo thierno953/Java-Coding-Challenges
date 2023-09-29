@@ -10,7 +10,7 @@ public class Months {
 
         switch (userInput) {
             case 1:
-                System.out.println("January");
+                System.out.println("January"); 
                 break;
             case 2:
                 System.out.println("February");
