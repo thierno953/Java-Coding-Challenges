@@ -12,7 +12,7 @@ public class CorrectInput {
             System.out.println("Please enter correct value: ");
             userInput = scanner.nextInt();
         }
-        System.out.println("Thank you for your input!");
+        System.out.println("Thank you for your input! ");
         scanner.close();
     }  
 }
