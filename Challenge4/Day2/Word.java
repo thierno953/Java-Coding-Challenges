@@ -20,7 +20,7 @@ public class Word {
             } else {
                 charMap.put(word, 1);
             }
-        }
+        } 
 
         // print values in map
         for (Map.Entry<String, Integer> map : charMap.entrySet()) {

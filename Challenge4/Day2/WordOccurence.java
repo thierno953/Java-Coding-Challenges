@@ -23,7 +23,7 @@ public class WordOccurence {
                 wordMap.put(word, 1);
             }
         }
-
+  
         // print values in map
         for (Map.Entry<String, Integer> map : wordMap.entrySet()) {
             System.out.println(map.getKey() + ": " + map.getValue());

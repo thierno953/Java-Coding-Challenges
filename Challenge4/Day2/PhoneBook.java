@@ -15,7 +15,7 @@ public class PhoneBook {
         addEntry("Tom", 0422222222);
         printAll();
         searchEntry("Pierre");
-        deleteEntry("Tom");
+        deleteEntry("Tom"); 
         printAll();
     }
 

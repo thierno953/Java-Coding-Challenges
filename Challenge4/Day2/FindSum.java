@@ -9,7 +9,7 @@ public class FindSum {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(1);
         nums.add(3);
-        nums.add(2);
+        nums.add(2); 
         nums.add(6);
         int target = 5;
 
